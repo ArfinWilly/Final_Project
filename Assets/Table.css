@@ -1,0 +1,65 @@
+/* Styling untuk tombol "Tambah Data" */
+.tambah-data {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna biru untuk tambah data */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white; /* Background putih */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow untuk memberi efek volume */
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; /* Border tipis */
+    text-align: center;
+    color: #333; /* Warna teks hitam */
+}
+
+/* Styling untuk header tabel */
+table th {
+    background-color: #f4f4f4; /* Warna background header lebih cerah */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling untuk baris genap */
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Background untuk baris genap */
+}
+
+/* Styling untuk hover */
+table tr:hover {
+    background-color: #eaeaea; /* Warna saat dihover */
+}
+
+/* Styling untuk aksi (edit dan hapus) */
+table td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #007bff; /* Warna biru untuk tombol edit */
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+table td a.hapus {
+    background-color: #dc3545; /* Warna merah untuk tombol hapus */
+}
+
+table td a:hover {
+    opacity: 0.8; /* Efek hover untuk tombol */
+}

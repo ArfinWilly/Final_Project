@@ -1,0 +1,50 @@
+/* Container styling */
+.form-container {
+    width: 400px; /* Ubah lebar form */
+    padding: 20px;
+    margin: 50px auto;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Warna background lebih cerah */
+    box-shadow: 8px 8px 16px #b3b3b3, -8px -8px 16px #ffffff; /* Efek volumetrik */
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Style Title */
+.form-container h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Style Input */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select,
+.form-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 4px 4px 8px #d1d1d1, inset -4px -4px 8px #ffffff;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Style submit button*/
+.form-container .submit-btn {
+    width: 95%;
+    padding: 12px;
+    font-size: 1em;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 4px 4px 8px #b3b3b3, -4px -4px 8px #ffffff;
+}
+
+.form-container .submit-btn:hover {
+    background: #0056b3;
+}
