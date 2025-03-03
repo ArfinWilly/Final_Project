@@ -20,7 +20,7 @@ class C_Lomba extends CI_Controller {
 		$this->load->view('Lomba' , $data);
 		$this->load->view('Template/Footer');
 	}
-
+	
     public function hapus($id)
 	{
 		$this->db->delete('tb_lomba',['id' => $id]);
